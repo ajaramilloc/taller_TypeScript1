@@ -1,0 +1,36 @@
+body{
+    background: url(./Assets/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::after{
+    background-color: #000000;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.title h1{
+    color: white;
+    text-align: center;
+}
+
+.title{
+    background-color: red;
+}
+
+.table{
+    background-color: #000000d0;
+}
+
+#averageSeasons{
+    background-color: #000000d0;
+}
+
+th{
+    color: white;
+}
